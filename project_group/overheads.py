@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 
 # create a file to csv file.
-file_path = Path.cwd()/"project_group"/"csv_reports"/"Overheads.csv"
+file_path = Path.cwd()/"csv_reports"/"Overheads.csv"
 def overheads():
     """
     -This function finds the highest overhead category.

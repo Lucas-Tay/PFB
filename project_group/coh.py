@@ -2,7 +2,7 @@ from pathlib import Path
 import csv
 
 # create a file to csv file.
-file_path = Path.cwd()/"project_group"/"csv_reports"/"Cash on Hand.csv"
+file_path = Path.cwd()/"csv_reports"/"Cash on Hand.csv"
 # Define new coh function
 def coh():
     """
